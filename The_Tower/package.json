@@ -1,13 +1,13 @@
 
   {
-    "name": "the_tower",
+    "name": "tower",
     "version": "1.0.0",
     "scripts": {
       "build": "npm run setup:server",
       "setup:app": "npm run setup:server && npm run setup:client",
-      "setup:client": "cd The_Tower.client && npm i",
-      "setup:server": "cd The_Tower && npm i",
-      "start": "node The_Tower/index.js"
+      "setup:client": "cd Tower.client && npm i",
+      "setup:server": "cd Tower && npm i",
+      "start": "node Tower/index.js"
     },
     "engines": {
       "node": "^14.17.0"
